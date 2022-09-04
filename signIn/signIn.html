@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"
+    ></script>
+    <title>sign-in</title>
+</head>
+<body>
+        <!-- navbar container -->
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <!-- logo img -->
+              <a class="navbar-brand fw-bold text-primary" href="#"
+                ><img class="logo-img" src="../imges/Screenshot_2022-07-06_114403-removebg-preview (1).png" alt=""></a
+              >
+              <!-- pop button on phone screen -->
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <!-- home page -->
+                    <a class="nav-link active" aria-current="page" href="../mainPage.html"
+                      >Home<i class="fa-solid fa-house-chimney"></i
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <!-- home page -->
+                    <a class="nav-link active" aria-current="page" href="../contact/contactPage.html"
+                      >contact
+                    </a>
+                  </li>
+                </ul>
+                <form class="d-flex p-4">
+                  <a class="nav-link sign-in" href="signIn/signIn.html"><i class="fa-solid fa-user"></i>Account</a>
+                </form>
+              </div>
+            </div>
+          </nav>
+          <!-- end of the navbar container -->
+          <!-- main container -->
+    <main>
+        <!-- sign-in container -->
+        <div class="sign-in-container container bg-light mt-4 col-md-4 col-12 g-5 d-flex flex-column justify-content-between text-center p-3">
+            <!-- head container -->
+            <div class="title-box">
+                <!-- nagato real estate logo -->
+                <img src="../imges/red-logo-removebg-preview.png" alt="" width="150px" height="150px">
+                <!-- title  -->
+                <h1 class="fw-bold">Sign in</h1>
+            </div>
+            <!-- inputs container of the user details -->
+            <div class="Details-container d-flex flex-column">
+                <input class="rounded-2 user-input" type="text" placeholder="user name"> <!--user input-->
+                <input class="rounded-2 email-input" type="email" placeholder="Email"><!--email input-->
+                <input class="rounded-2 password-input" type="password" placeholder="password"><!--password input-->
+                <input class="rounded-2 phone-input" type="text" placeholder="phone"><!--phone number input-->
+            </div>
+            <!-- btn-container -->
+            <div class="btn-container d-flex flex-column justify-content-around">
+                <!-- sign in btn -->
+            <button class="signIn-btn btn btn-danger col-12">sign in</button>
+        </div>
+        <!-- login btn left pop container -->
+        <button class="btn btn-danger" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">log-in</button>
+            <!--form container  -->
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+              <div class="offcanvas-header d-flex flex-column">
+                <!-- title container -->
+                  <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">login form</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  <img class="img-fluid" src="../imges/me-removebg-preview.png" alt="">
+                </div>
+                <!-- input container -->
+                <div class="offcanvas-body d-flex flex-column gap-3">
+                  <!-- user name input -->
+                    <input class="login-input" type="text" placeholder="user name">
+                    <!-- password input -->
+                    <input class="password-input" type="password" placeholder="password">
+                    <p class="welcome"></p>
+                    <!-- log in btn -->
+            <button class="login-btn btn btn-danger col-12">log in</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- end of the main container -->
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.0.0-alpha.1/axios.min.js"></script>
+<!-- <script src="../Js/app.js"></script> -->
+<script src="../Js/user.js"></script>
+
+</html>

@@ -1,0 +1,40 @@
+body{
+  animation: 0.75s transitionIn;
+}
+// animation on the body
+@keyframes transitionIn{
+  from {
+      opacity: 0;
+      transform: rotateX(-10deg);
+  }
+  to {
+      opacity: 1;
+      transform: rotateX(0);
+  }
+}
+// container of the ring animation
+.lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    border-color: rgb(0, 0, 0) transparent rgb(255, 0, 0) transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+  }
+  // animation on the ring container
+  @keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

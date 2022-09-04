@@ -1,0 +1,61 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-animation: 0.75s transitionIn;
+          animation: 0.75s transitionIn;
+}
+
+@-webkit-keyframes transitionIn {
+  from {
+    opacity: 0;
+    -webkit-transform: rotateX(-10deg);
+            transform: rotateX(-10deg);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+  }
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    -webkit-transform: rotateX(-10deg);
+            transform: rotateX(-10deg);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+  }
+}
+
+.logo-img {
+  width: 100px;
+  height: 50px;
+}
+
+.sign-in-container {
+  border: 1px solid gray;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 5px 5px gray;
+          box-shadow: 5px 5px 5px 5px gray;
+  gap: 10px;
+}
+
+.Details-container {
+  gap: 15px;
+}
+
+.btn-container {
+  gap: 10px;
+}
+/*# sourceMappingURL=style.css.map */

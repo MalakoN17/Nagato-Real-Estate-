@@ -1,0 +1,121 @@
+
+.text-box-section-one{
+    h1{
+        font-size: 60px;
+    }
+    font-size: 20px;
+}
+
+.text-box-section-tow{
+    font-size: 20px;
+    p{
+    padding: 30px;
+    }
+}
+// about us container
+.about-us-container{
+    margin-top: 20px;
+    padding: 20px;
+}
+// right container first section
+.right-container-first-section{
+    // animation container
+    .slider{
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: slider 20s infinite;
+    }
+}
+// animation on the slider container first section
+@keyframes slider{
+    0%{
+        background: url(imges/breno-assis-r3WAWU5Fi5Q-unsplash.jpg);
+    }
+    50%{
+        background: url(imges/photo-1582407947304-fd86f028f716new.jfif);
+    }
+    100%{
+        background: url(imges/imgSix.jpg);
+    }
+} 
+// left container first section
+.left-container-first-section{
+    h1{
+        font-family: auto;
+    }
+    p{
+        font-family: auto;
+        font-size: 26px;
+    }
+}
+// why us container second section
+.why-us-container{
+    background-color: #000060;
+}
+// section three container
+.section-three-container{
+    padding: 40px;
+    h1{
+    font-size: 30px;
+    font-weight: bold;
+    }
+}
+// section three container
+.section-three-container{
+    background: url(imges/background-img.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    padding: 15px;
+}
+// top container section three
+.top-container{
+    background: rgba(255, 254, 254, 0.388);
+}
+// container that display 
+.close-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    .Home-container{
+        display: none;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    // border-radius: 15px;
+    padding: 10px;
+    img{
+        width: 100%;
+    }
+    }
+    .Home-container:nth-child(1){
+        display: block;
+    }
+    .Home-container:nth-child(2){
+        display: block;
+    }
+    .Home-container:nth-child(3){
+        display: block;
+    }
+    .Home-container:nth-child(4){
+        display: block;
+    }
+    .Home-container:nth-child(5){
+        display: block;
+    }
+    .Home-container:nth-child(6){
+        display: block;
+    }
+}
+
+// container that open on the click event
+.open-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+

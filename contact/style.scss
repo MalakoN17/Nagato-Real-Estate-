@@ -1,0 +1,46 @@
+body {
+    font-family: 'Lato', sans-serif;
+    animation: 0.75s transitionIn;
+}
+// animation on the body
+@keyframes transitionIn{
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+// logo img 
+.logo-img{
+    width: 100px;
+    height: 50px;
+}
+// head title
+.main-title {
+    margin-bottom: 40px;
+}
+label {
+    color: #333;
+}
+// send btn
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    width: 80%;
+    margin-left: 3px;
+    }
+
+.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px;
+
+}
+// cart container
+.card{
+	margin-left: 10px;
+	margin-right: 10px;
+}

@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+// style on the body background img
+body{
+    background: url(../imges/breno-assis-r3WAWU5Fi5Q-unsplash.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    animation: 0.75s transitionIn;
+}
+// animation on the body
+@keyframes transitionIn{
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+// logo img on the nav
+.logo-img{
+    width: 100px;
+    height: 50px;
+}
+// login container 
+.login-container{
+    border: 1px solid;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.518);
+}
+// style on the property container
+.property-data{
+    border: 1px solid;
+    border-radius: 15px;
+    font-size: 30px;
+    font-family: initial;
+    width: 100%;
+    padding: 15px;
+}
+#userBgImg{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 150px;
+}

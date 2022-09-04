@@ -1,0 +1,44 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+// body container
+body{
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: 0.75s transitionIn;
+}
+// animation on the body
+@keyframes transitionIn{
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+  }
+// logo img 
+.logo-img{
+    width: 100px;
+    height: 50px;
+}
+// sign-in container
+.sign-in-container{
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px gray;
+    gap: 10px;
+}
+// input container
+.Details-container{
+    gap: 15px;
+}
+// button container
+.btn-container{
+    gap: 10px;
+}

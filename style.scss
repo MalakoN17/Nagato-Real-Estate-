@@ -1,0 +1,43 @@
+@import 'styleMainPage/main';
+@import 'styleMainPage/footer';
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Pangea, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+body{
+    animation: 0.75s transitionIn;
+}
+// animation on the body
+@keyframes transitionIn{
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+// logo img in the navbar container
+.logo-img{
+    width: 115px;
+    height: 50px;
+}
+// carousel in the header container
+.carousel-item{
+    height: 80%;
+}
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.358);
+}
+// media quarry
+@media screen and (max-width:414px) {
+    .carousel-item{
+        height: 40%;
+        .third-img{
+            height: 90%;
+        }
+    }      
+}

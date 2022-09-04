@@ -1,0 +1,218 @@
+.text-box-section-one {
+  font-size: 20px;
+}
+
+.text-box-section-one h1 {
+  font-size: 60px;
+}
+
+.text-box-section-tow {
+  font-size: 20px;
+}
+
+.text-box-section-tow p {
+  padding: 30px;
+}
+
+.about-us-container {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.right-container-first-section .slider {
+  height: 300px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-animation: slider 20s infinite;
+          animation: slider 20s infinite;
+}
+
+@-webkit-keyframes slider {
+  0% {
+    background: url(imges/breno-assis-r3WAWU5Fi5Q-unsplash.jpg);
+  }
+  50% {
+    background: url(imges/photo-1582407947304-fd86f028f716new.jfif);
+  }
+  100% {
+    background: url(imges/imgSix.jpg);
+  }
+}
+
+@keyframes slider {
+  0% {
+    background: url(imges/breno-assis-r3WAWU5Fi5Q-unsplash.jpg);
+  }
+  50% {
+    background: url(imges/photo-1582407947304-fd86f028f716new.jfif);
+  }
+  100% {
+    background: url(imges/imgSix.jpg);
+  }
+}
+
+.left-container-first-section h1 {
+  font-family: auto;
+}
+
+.left-container-first-section p {
+  font-family: auto;
+  font-size: 26px;
+}
+
+.why-us-container {
+  background-color: #000060;
+}
+
+.section-three-container {
+  padding: 40px;
+}
+
+.section-three-container h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.section-three-container {
+  background: url(imges/background-img.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  padding: 15px;
+}
+
+.top-container {
+  background: rgba(255, 254, 254, 0.388);
+}
+
+.close-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+}
+
+.close-container .Home-container {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  gap: 15px;
+  padding: 10px;
+}
+
+.close-container .Home-container img {
+  width: 100%;
+}
+
+.close-container .Home-container:nth-child(1) {
+  display: block;
+}
+
+.close-container .Home-container:nth-child(2) {
+  display: block;
+}
+
+.close-container .Home-container:nth-child(3) {
+  display: block;
+}
+
+.close-container .Home-container:nth-child(4) {
+  display: block;
+}
+
+.close-container .Home-container:nth-child(5) {
+  display: block;
+}
+
+.close-container .Home-container:nth-child(6) {
+  display: block;
+}
+
+.open-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 20px;
+}
+
+footer {
+  background: #b10000;
+  background: -webkit-gradient(linear, left bottom, left top, from(#b10000), to(#ff8383));
+  background: linear-gradient(0deg, #b10000 0%, #ff8383 100%);
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: Pangea, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+  -webkit-animation: 0.75s transitionIn;
+          animation: 0.75s transitionIn;
+}
+
+@-webkit-keyframes transitionIn {
+  from {
+    opacity: 0;
+    -webkit-transform: rotateX(-10deg);
+            transform: rotateX(-10deg);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+  }
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    -webkit-transform: rotateX(-10deg);
+            transform: rotateX(-10deg);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+  }
+}
+
+.logo-img {
+  width: 115px;
+  height: 50px;
+}
+
+.carousel-item {
+  height: 80%;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.358);
+}
+
+@media screen and (max-width: 414px) {
+  .carousel-item {
+    height: 40%;
+  }
+  .carousel-item .third-img {
+    height: 90%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

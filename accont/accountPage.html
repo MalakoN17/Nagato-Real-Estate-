@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>account</title>
+  </head>
+  <body>
+    <!-- navbar container -->
+    <nav class="navbar navbar-expand-lg fw-bold bg-light">
+        <div class="container-fluid">
+          <!-- logo img -->
+          <a class="navbar-brand fw-bold text-primary" href="#"
+            ><img class="logo-img" src="../imges/Screenshot_2022-07-06_114403-removebg-preview (1).png" alt=""></a
+          >
+          <!-- pop button on phone screen -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <!-- home page -->
+                <a class="nav-link active" aria-current="page" href="../mainPage.html"
+                  >Home<i class="fa-solid fa-house-chimney"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <!-- home page -->
+                <a class="nav-link active" aria-current="page" href="../contact/contactPage.html"
+                  >contact
+                </a>
+              </li>
+            </ul>
+            <form class="d-flex p-4">
+              <a class="nav-link sign-in" href="../signIn/signIn.html"><i class="fa-solid fa-user"></i>Account</a>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- end of the navbar container --> 
+         <!-- main container  -->
+         <main class="main-container container mt-4">
+            <!-- login container -->
+            <div class="login-container col-10 d-flex flex-column align-items-center gap-3">
+                <!-- title of the login container -->
+                <h1 class="fw-bold">welcome</h1>
+                <!-- second title of the login container -->
+                <h5>here you can add property for sell</h5>
+                <!-- container of the inputs  -->
+                <div class="d-flex flex-column gap-4">
+                  <!-- <input type="file" class="file-img"> -->
+
+                    <input class="price" type="number" placeholder="property price">
+                    <input class="addres" type="text" placeholder="adders">
+                    <input class="states" type="text" placeholder="states">
+                    <input class="phone-number" type="number" placeholder="phone number">
+                    <input class="email" type="email" placeholder="email adders">
+                    <input class="property-status" type="text" placeholder="status">
+                    <input id="input-file" type="file" accept="image/*" onchange="previewImage();">
+                </div>
+                
+                <!-- container of the add btn -->
+                <div>
+                    <!-- add btn -->
+                    <button class="add-btn btn btn-danger">Add</button>
+                </div>
+                <!-- container of the property -->
+                <div class="user-property gap-3 d-flex flex-wrap align-items-center">
+                </div>
+            </div>
+         </main>
+  </body>
+  <!-- <script src="../Js/loading.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</html>

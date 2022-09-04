@@ -1,0 +1,66 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: url(../imges/breno-assis-r3WAWU5Fi5Q-unsplash.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  -webkit-animation: 0.75s transitionIn;
+          animation: 0.75s transitionIn;
+}
+
+@-webkit-keyframes transitionIn {
+  from {
+    opacity: 0;
+    -webkit-transform: rotateX(-10deg);
+            transform: rotateX(-10deg);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+  }
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    -webkit-transform: rotateX(-10deg);
+            transform: rotateX(-10deg);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+  }
+}
+
+.logo-img {
+  width: 100px;
+  height: 50px;
+}
+
+.login-container {
+  border: 1px solid;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.518);
+}
+
+.property-data {
+  border: 1px solid;
+  border-radius: 15px;
+  font-size: 30px;
+  font-family: initial;
+  width: 100%;
+  padding: 15px;
+}
+
+#userBgImg {
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 150px;
+  width: 150px;
+}
+/*# sourceMappingURL=style.css.map */
