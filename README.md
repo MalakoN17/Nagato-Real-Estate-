@@ -21,13 +21,13 @@ Perform the part of the iterations that can be as helpful as possible
 ## Wareframe & Design
 ### main page 📄 
 ##### main page 📄 navbar and header 
-![nav_and_header_Screenshot](https://user-images.githubusercontent.com/105584146/178699372-6681dd28-b88e-4096-b290-33a2cdbf9a76.png)
+![Screenshot 2022-09-05 155806 header](https://user-images.githubusercontent.com/105584146/188476400-93e50a57-327d-4a01-b2e9-5bd8b4d184f0.png)
 ##### main page 📄 main container first section - about us 
 ![main_first_section_Screenshot](https://user-images.githubusercontent.com/105584146/178699423-7e6d4fe4-4435-4054-9876-d5b004c84299.png)
 ##### main page 📄 main container second section - why us 
 ![main_second_secton_screenshot](https://user-images.githubusercontent.com/105584146/178699626-019e0094-36fd-4a33-94d1-d28bbb3cc636.png)
 ##### main page 📄 main container third section  - properties for a sell 
-![main_third_section_Screenshot](https://user-images.githubusercontent.com/105584146/178699792-3a3286e1-6ad0-493e-ad03-1dbc9fff4ef8.png)
+![Screenshot 2022-09-05 MainPage](https://user-images.githubusercontent.com/105584146/188476607-0bad7933-9fea-4f28-aa95-4d35dc78658d.png)
 ##### footer
  ![secondfooter_Screenshot](https://user-images.githubusercontent.com/105584146/178702536-6d5205c8-07e4-4f0e-92b6-78ed5f76354d.png)
 ##### contact page
